@@ -6,6 +6,10 @@ body {
     font-size: 1.6rem;
     font-family: "Nunito", sans-serif;
 }
+a {
+    text-decoration: none;
+    color: inherit;
+}
 
 button,
 input,
@@ -14,4 +18,90 @@ select {
     font-family: inherit;
     font-style: inherit;
     color: inherit;
+}
+
+.container {
+    width: 1920px;
+    max-width: calc(100% - 246px);
+    margin: 0 auto;
+}
+
+.btn {
+    --height: 53px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    min-width: 130px;
+    height: var(--height);
+    line-height: var(--height);
+    border: 1px solid #ff5a3c;
+    border-radius: 10px;
+    font-family: Poppins;
+    font-weight: 600;
+    font-style: SemiBold;
+    font-size: 1.8rem;
+    line-height: 100%;
+    letter-spacing: 0%;
+    text-align: center;
+    background: #ff5a3c;
+    color: #ffffff;
+}
+
+.header {
+}
+.header__top {
+    width: 100vw;
+    background: #071c1f;
+}
+.header__top-inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 13.5px 20px;
+}
+.top__left {
+    display: flex;
+    align-items: center;
+}
+.top__left-info {
+    display: flex;
+}
+.info__text {
+    font-family: Poppins;
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 14px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    color: #ffffff;
+}
+
+.header__inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.navbar {
+    display: flex;
+    align-items: center;
+}
+.navbar__list {
+    display: flex;
+    align-items: center;
+}
+
+.navbar__item {
+    text-align: center;
+}
+.navbar__link,
+.header-action__link {
+    padding: 8px 22.5px;
+    font-family: Poppins;
+    font-weight: 600;
+    font-style: SemiBold;
+    font-size: 1.8rem;
+    line-height: 1;
+    letter-spacing: 0%;
+    text-align: center;
+    color: #233638;
 }
