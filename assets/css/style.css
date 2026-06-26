@@ -1,0 +1,17 @@
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-size: 1.6rem;
+    font-family: "Nunito", sans-serif;
+}
+
+button,
+input,
+textarea,
+select {
+    font-family: inherit;
+    font-style: inherit;
+    color: inherit;
+}
