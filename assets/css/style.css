@@ -50,7 +50,6 @@ select {
 .header {
 }
 .header__top {
-    width: 100vw;
     background: #071c1f;
 }
 .header__top-inner {
@@ -62,9 +61,11 @@ select {
 .top__left {
     display: flex;
     align-items: center;
+    gap: 38px;
 }
 .top__left-info {
     display: flex;
+    gap: 3px;
 }
 .info__text {
     font-family: Poppins;
@@ -76,10 +77,21 @@ select {
     color: #ffffff;
 }
 
+.social_logo {
+    margin-left: 13px;
+    cursor: pointer;
+    filter: brightness(0) saturate(100%) invert(99%) sepia(100%) saturate(2%)
+        hue-rotate(314deg) brightness(104%) contrast(100%);
+}
+.social_logo:hover {
+    filter: brightness(0) saturate(100%) invert(68%) sepia(64%) saturate(6473%)
+        hue-rotate(337deg) brightness(101%) contrast(101%);
+}
 .header__inner {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin: 13px 0;
 }
 .navbar {
     display: flex;
@@ -104,4 +116,26 @@ select {
     letter-spacing: 0%;
     text-align: center;
     color: #233638;
+}
+
+.navbar__link:hover {
+    position: relative;
+    color: #ff5a3c;
+}
+
+.navbar__link:hover::after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 25%;
+    width: 50%;
+    height: 2px;
+    background-color: #ff5a3c;
+    border-radius: 2px;
+}
+
+.header-action__btn {
+    --height: 53px;
+
+    min-width: 130px;
 }
