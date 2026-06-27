@@ -349,27 +349,27 @@ select {
     color: #071c1f;
 }
 
-.about {
+.guilde {
     margin: 120px 135px;
 }
-.about__inner {
+.guilde__inner {
 }
-.about__heading {
+.guilde__heading {
     margin: 0 auto;
     max-width: 567px;
 }
-.about__subheading {
+.guilde__subheading {
     margin: 0 auto;
     max-width: 425px;
 }
-.about__option {
+.guilde__option {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     column-gap: 45px;
     margin-top: 60px;
 }
 
-.about__option-wrap {
+.guilde__option-wrap {
     opacity: 1;
     border-radius: 20px;
     border-width: 1px;
@@ -377,21 +377,21 @@ select {
     transition: color 0.3s ease;
 }
 
-.about__option-wrap:hover {
+.guilde__option-wrap:hover {
     background-color: #ff5a3c;
 }
-.about__option-wrap:hover .option-thumbnail {
-    background-color: #f18f82;
+.guilde__option-wrap:hover .option-thumbnail {
+    background-color: #ff4229;
 }
-.about__option-wrap:hover .option__svg {
+.guilde__option-wrap:hover .option__svg {
     color: #ffffff;
 }
 
-.about__option-wrap:hover .wrap__heading {
+.guilde__option-wrap:hover .wrap__heading {
     color: #ffffff;
 }
 
-.about__option-wrap:hover .wrap__des {
+.guilde__option-wrap:hover .wrap__des {
     color: #fff;
 }
 .option-thumbnail {
