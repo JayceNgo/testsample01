@@ -186,6 +186,9 @@ select {
     font-size: 1.8rem;
     line-height: 28px;
     letter-spacing: -1%;
+    margin: 30px 0;
+    color: #9eabb2;
+    max-width: 433px;
 }
 .hero__content-btn {
     display: flex;
